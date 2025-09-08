@@ -25,7 +25,7 @@ from vod_prediction.utils.geometry_utils import view_points
 from vod_prediction.vod import VOD
 
 # Recommended style to use as the plots will show grids.
-plt.style.use("seaborn-whitegrid")
+#plt.style.use("seaborn-whitegrid") # Missing dependency
 
 # Define a map geometry type for polygons and lines.
 Geometry = Union[Polygon, LineString]
